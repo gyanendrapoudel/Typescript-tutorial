@@ -9,3 +9,11 @@ Typescript Fille> Typescript Compiler(compilation / Transpiling) > Javascript Co
 
 2. It is a superset of JavaScript.
 >npm i typescript# Typescript-tutorial
+
+### Type Inference
+The typescript compiler can infer the type of the variable based on the literal value that is assigned when it is defined. Just make sure you are working in the typescript file 
+
+let awesomeName = 'Mike';
+awesomeName = 'Nick';
+awesomeName = awesomeName.toUpperCase();
+// awesomeName = 20;
