@@ -45,3 +45,20 @@ for (let book of books) {
 }
 
 console.log(foundBook?.length);
+
+### Arrays - Fundamentals
+ arrays are used to store multiple values in a single variable. You can define the type of elements that an array can hold using type annotations.
+
+let ids: number[] = [100, 75, 42];
+
+let fruits: string[] = ['apple', 'orange'];
+// fruits.push(1);
+// let people: string[] = ['sam', 'ram', 1];
+//
+// be careful "[]" means literally empty array
+// let randomValues: [] = [1];
+
+// be careful with inferred array types
+// let names = ['peter', 'susan'];
+// let names = ['peter', 'susan', 1];
+let array: (string | boolean)[] = ['apple', true, 'orange', false];
